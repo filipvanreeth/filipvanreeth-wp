@@ -1,0 +1,9 @@
+{
+  "php.problems.exclude": {
+    "**/.git": true,
+    "**/vendor": true,
+    "**/node_modules": true,
+    "**/web/wp": true
+  },
+  "php.version": "8.2",
+}
