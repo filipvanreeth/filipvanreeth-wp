@@ -44,6 +44,9 @@ tooling:
     service: node
   # redis-cli:
   #   service: redis
+  dep:
+    service: appserver
+    cmd: ./vendor/bin/dep
   phpcs:
     service: appserver
     cmd: ./vendor/bin/phpcs
